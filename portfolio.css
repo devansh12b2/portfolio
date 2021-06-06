@@ -1,0 +1,258 @@
+.parallax {
+    /* The image used */
+    background-image: url("https://pm1.narvii.com/7439/1a43708ef9830b888aa50ae3f5f5a859cabb4929r1-719-1111v2_hq.jpg");
+
+     /* Set a specific height */
+    /* min-height: 500px; */
+
+     /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align:center;
+    color:magenta;
+  }
+  h4{
+    text-align:center;
+    color:blue;
+  }
+  h2{
+      color:red;
+    text-align:center;
+    border-style:solid;
+    margin: 10px;
+    padding: 10px;
+    border-width:5px;
+  }
+  p{
+    background-color:lightgrey;
+  }
+  ul{
+    text-align:center;
+    background-color:lightgreen;
+  }
+  a:hover{
+   color:red;
+  }
+  h3{
+    text-decoration:underline;
+    font-size:200%;
+  }
+  
+  pre{
+    text-align:center;
+    background-color:lightyellow;
+  }
+  table,th,td{
+    border-style:solid;
+    margin-left: 100px;
+    border-collapse:collapse;
+    padding:15px;
+    background-color:pink;
+  }
+  .social{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    width: fit-content;
+} 
+body{
+    background-color: black;
+    color: white;
+    font-family: Verdana;
+}
+
+.heading{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 60px;
+    text-align: center;
+}
+
+.heading2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 40%;
+    border: solid 2px white;
+    border-radius: 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 35px;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+
+.content{
+    background-color: rgb(47, 47, 47);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    position: relative;
+}
+
+.o-animation{
+    margin-left: auto;
+    margin-right: auto;
+    filter: brightness(130%);
+    width: 40px;
+}
+
+.mainheading .o-animation{
+    width:50px;
+}
+
+.navbtn {
+    font-size: 30px;
+    display: block;
+    overflow: hidden;
+}
+
+.navbtn:hover{
+    color: red;
+}
+
+.navigation {
+    height: 100%;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    padding-top: 60px;
+    z-index: 1;
+    transition: 0.5s;
+    overflow-x: hidden;
+    width: 0;
+    background-color: rgb(47, 47, 47);
+    align-content: center;
+    text-align: center;
+}
+
+.navigation a, .content a{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 150px;
+    border: solid 2px white;
+    border-radius: 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+
+.navigation a:hover, .content a:hover {
+    border: solid 2px red;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 65%;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: solid 2px red;
+    font-size: 23px;
+    padding: 40px 40px 40px 40px;
+    border-radius: 15px;
+}
+
+.center{
+    border-radius: 25px;
+    padding: 8px 8px 8px 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+.index{
+    grid-area: home;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    position: relative;
+}
+
+.mainheading{
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+    color:orange;
+}
+
+.social{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.lang{
+    background-color: rgb(47, 47, 47);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    position: relative;
+}
+
+.social img{
+    width: 40px;
+}
+
+  @media screen and (max-width: 750px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .mainheading {font-size: 40px;}
+    .heading {font-size:32px}
+    .o-animation {width:23px;}
+    .mainheading .o-animation {width: 26px;}
+    .heading2 {font-size: 25px;width: fit-content;}
+    .content {font-size: 25px;}
+    .card {font-size: 20px;}
+    p {font-size: 18px;}
+    .navigation a, .content a {font-size: 20px;}
+    .center {width: 80%;}
+  }
